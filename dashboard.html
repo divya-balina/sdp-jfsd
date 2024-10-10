@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-image: url('school-manag.png'); /* You can replace with your background image */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background-color: white;
+            width: 75%;
+            padding: 40px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        .dashboard {
+            width: 30%;
+            
+        }
+        .dashboard h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: right;
+            padding: 20px;
+            
+        }
+        .menu {
+            list-style: none;
+        }
+        .menu li {
+            margin-bottom: 15px;
+        }
+        .menu li a {
+            text-decoration: none;
+            font-size: 1.2em;
+            color: #000;
+            font-weight: bold;
+        }
+        .illustration {
+            width: 60%;
+        }
+        .illustration img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="dashboard">
+            <h1>Dashboard</h1>
+            <ul class="menu">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="attendance.html">Attendance Register</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="examsection.html">Exam Section</a></li>
+                <li><a href="#">Fee Payments</a></li>
+                <li><a href="#">My CGPA</a></li>
+                <li><a href="#">Semester Prediction</a></li>
+            </ul>
+        </div>
+        <div class="illustration">
+            
+        </div>
+    </div>
+</body>
+</html>

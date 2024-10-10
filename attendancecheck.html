@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E6E6FA;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            height: 100PX;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: black;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Coursecode</th>
+                    <th>CourseDesc</th>
+                    <th>Section</th>
+                    <th>Year</th>
+                    <th>Total Absent</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>22SDCS03A</td>
+                    <td>JFSD</td>
+                    <td>23</td>
+                    <td>2024-25</td>
+                    <td>0</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>22DSB3101A</td>
+                    <td>DAV</td>
+                    <td>28</td>
+                    <td>2024-25</td>
+                    <td>4</td>
+                    <td>77%</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>22DSB3101A</td>
+                    <td>DWDM</td>
+                    <td>21</td>
+                    <td>2024-25</td>
+                    <td>6</td>
+                    <td>80%</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>22DSB3101A</td>
+                    <td>JFSD</td>
+                    <td>26</td>
+                    <td>2024-25</td>
+                    <td>2</td>
+                    <td>89%</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="dashboard.html" class="home-link">Back to Home</a>
+    </div>
+</body>
+</html>
